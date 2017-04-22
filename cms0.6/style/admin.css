@@ -1,0 +1,261 @@
+@CHARSET "utf-8";
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, p, dl, dt, dd, form, table, tr, td, th
+{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 14px;
+	letter-spacing: 1px;
+	width: 100%;
+}
+ul, ol {
+	list-style-type: none;
+}
+
+#top {
+	height: 80px;
+	border-bottom: 1px solid #e7e7e7;
+	background: #f8f8f8;
+}
+#top h1 {
+	width: 200px;
+	padding: 0;
+	font-size: 18px;
+	float: left;
+	line-height: 80px;
+	text-align: center;
+	border-right: 1px solid #e7e7e7;
+}
+#top ul {
+	margin: 48px 0 0 0;
+	float: left;
+}
+#top ul li {
+	float: left;
+}
+#top ul li a {
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #428bca;
+	border-top: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+}
+#top ul li a:hover {
+	background: #ffffff;
+	color: #000000;
+}
+#top ul li a.selected {
+	background: #ffffff;
+	color: #000000;
+}
+#top p {
+	margin: 40px 40px 0 0;
+	float: right;
+	font-size: 12px;
+}
+#top p a {
+	text-decoration: none;
+}
+#top p a:hover {
+	text-decoration: underline;
+}
+
+#sidebar {
+	width: 200px;
+	min-height: 600px;
+	float: left;
+	border-right: 1px solid #e7e7e7;
+	background: #f8f8f8;
+}
+#sidebar dl {
+	padding: 0 20px 20px 20px;
+	text-indent: 2px;
+}
+#sidebar dl dt {
+	color: #3b6ea5;
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+	padding: 5px 0;
+	margin: 5px 0;
+}
+#sidebar dl dd {
+	height: 22px;
+	line-height: 22px;	
+	border-bottom: 1px solid #e7e7e7;
+}
+#sidebar dl dd a {
+	color: #333;
+	font-size: 12px;
+	text-decoration: none;
+}
+#sidebar dl dd a:hover {
+	color: #428bca;
+	font-size: 14px;
+}
+
+#main {
+	width: 85%;
+	background: #fff;
+	float: left;
+}
+#main div.nav {
+	height: 30px;
+	margin: 10px 0 0 0;
+	border-bottom: 1px solid #e7e7e7;
+	background: #f8f8f8;
+}
+#main div.nav ol {
+}
+#main div.nav ol li {
+	float: left;
+}
+#main div.nav ol li a {
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #428bca;
+	border-top: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+}
+#main div.nav ol li a:hover {
+	background: #ffffff;
+	color: #000000;
+}
+#main div.nav ol li a.selected {
+	background: #ffffff;
+	color: #000000;
+}
+#main div.map {
+	padding: 15px 0 15px 30px;
+	color: #008000;
+	font-weight: bold;
+	font-size: 12px;
+}
+#main div.map strong {
+	color: #008000;
+}
+#main div.show {
+	background: #f8f8f8;
+}
+#main div.show table {
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+}
+#main div.show table tr {
+	background: #ffffff;
+}
+#main div.show table tr:hover {
+	background: #ffffcc;
+}
+#main div.show table tr th,
+#main div.show table tr td 
+{
+	min-height: 30px;
+	line-height: 30px;
+	color: #333;
+	border: 1px solid #e7e7e7;
+	font-size: 12px;
+}
+#main div.show table tr th {
+	background: #eef3f7;
+}
+#main div.show table tr td {}
+
+#main div.add {}
+#main div.add form {}
+#main div.add form input {}
+#main div.add form input.text {}
+#main div.add form input.submit {}
+#main div.add table {
+	width: 95%;
+	text-align: center;
+	margin: 0 0 0 200px;
+}
+#main div.show table tr {
+	background: #ffffff;
+}
+#main div.show table tr:hover {
+	background: #ffffcc;
+}
+#main div.show table tr th,
+#main div.show table tr td 
+{
+	min-height: 30px;
+	line-height: 30px;
+	color: #333;
+	border: 1px solid #e7e7e7;
+	font-size: 12px;
+}
+#main div.show table tr th {
+	background: #eef3f7;
+}
+#main div.show table tr td {}
+
+#main div.add {
+	background: #f8f8f8;
+}
+#main div.add form {
+}
+#main div.add form input.text {
+	width: 220px;
+	height: 22px;
+	border: 1px solid #cccccc;
+	text-indent: 10px;
+}
+#main div.add form input.submit {
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #cccccc;
+	color: #ffffff;
+	background: #428bca;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 8px;
+	cursor: pointer;
+	margin: 15px 60px 0 0;
+}
+#main div.add form input.submit:hover {
+	background: #3f63b5;
+}
+#main div.add form select {
+	width: 220px;
+	height: 30px;
+	border: 1px solid #cccccc;
+	text-indent: 10px;
+}
+#main div.add form select option {
+	width: 220px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #cccccc;
+	text-indent: 10px;
+}
+#main div.add table {
+	width: 310px;
+	text-align: right;
+}
+#main div.add table tr {
+}
+#main div.add table tr td {
+	width: 70px;
+	min-height: 40px;
+	line-height: 40px;
+	color: #333;
+	border: none;
+	font-size: 12px;
+}

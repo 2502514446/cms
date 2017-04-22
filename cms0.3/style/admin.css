@@ -1,0 +1,137 @@
+@CHARSET "utf-8";
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, p, dl, dt, dd
+{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 14px;
+	width: 100%;
+}
+ul {
+	list-style-type: none;
+}
+
+#top {
+	height: 90px;
+	border-bottom: 1px solid #e7e7e7;
+	background: #f8f8f8;
+}
+#top h1 {
+	width: 200px;
+	height: 70px;
+	padding: 20px 0 0 0;
+	font-size: 18px;
+	float: left;
+}
+#top ul {
+	margin: 55px 0 0 0;
+	float: left;
+}
+#top ul li {
+	height: 33px;
+	float: left;
+}
+#top ul li a {
+	width: 100px;
+	height: 33px;
+	text-align: center;
+	line-height: 33px;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #428bca;
+}
+#top ul li a:hover {
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	color: #000000;
+}
+#top ul li a.selected {
+	background-position: right bottom;
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	color: #000000;
+}
+#top p {
+	padding: 35px 25px 0 0;
+	float: right;
+	font-size: 14px;
+}
+#top p a {
+	text-decoration: none;
+}
+#top p a:hover {
+	text-decoration: underline;
+}
+
+#sidebar {
+	width: 200px;
+	min-height: 600px;
+	float: left;
+	border-right: 1px solid #e7e7e7;
+	background: #f8f8f8;
+}
+#sidebar dl {
+	padding: 0 20px 20px 20px;
+	text-indent: 2px;
+}
+#sidebar dl dt {
+	color: #3b6ea5;
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+	padding: 5px 0;
+	margin: 5px 0;
+}
+#sidebar dl dd {
+	height: 22px;
+	line-height: 22px;	
+	border-bottom: 1px solid #e7e7e7;
+}
+#sidebar dl dd a {
+	color: #333;
+	font-size: 12px;
+	text-decoration: none;
+}
+#sidebar dl dd a:hover {
+	color: #f60;
+	font-size: 14px;
+}
+
+#main {
+	width: 85%;
+	background: #fff;
+	float: left;
+}
+#main div.map {
+	padding: 15px;
+	color: #008000;
+	font-weight: bold;
+	font-size: 12px;
+}
+#main div.class {}
+#main div.list table {
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+}
+#main div.list table tr {
+	background: #ffffff;
+}
+#main div.list table tr:hover {
+	background: #ffffcc;
+}
+#main div.list table tr th,
+#main div.list table tr td 
+{
+	min-height: 30px;
+	line-height: 30px;
+	color: #333;
+	border: 1px solid #e7e7e7;
+	font-size: 12px;
+}
+#main div.list table tr th {
+	background: #eef3f7;
+}
+#main div.list table tr td {}

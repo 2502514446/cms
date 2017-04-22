@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<taglib>
+		<name>webname</name>
+		<value>51dream</value>
+	</taglib>
+	<taglib>
+		<name>pagesize</name>
+		<value>10</value>
+	</taglib>
+</root>
