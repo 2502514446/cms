@@ -1,4 +1,1 @@
-#关于cms后台管理系统:
-##打扫打扫实
-###hello word
-###hello github
+这是一个后台内容管理系统
